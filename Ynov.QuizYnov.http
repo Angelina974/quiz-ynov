@@ -1,0 +1,26 @@
+#Récupère les quiz
+GET https://localhost:5000/quiz
+
+{ "body" : "test" }
+###
+
+GET https://localhost:5000/quiz/<id>
+###
+
+GET https://localhost:5000/quiz/<id>/questions
+# Récupère la liste des questions et des choix possibles
+###
+
+GET https://localhost:5000/participations
+###
+
+# Crée une participation
+POST https://localhost:5000/participations
+###    
+
+{ }
+###
+
+GET https://localhost:5000/participation/<id>
+###
+
