@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Ynov.QuizYnov.Business;
 using Ynov.QuizYnov.Controllers.Dtos;
+using Ynov.QuizYnov.Business.Models;
 
 namespace Ynov.QuizYnov.Controllers
 {
@@ -28,6 +29,20 @@ namespace Ynov.QuizYnov.Controllers
 
             return Ok(dtos);
         }
+
+        [HttpGet("{id}", Name = "GetQuizById")]
+        [ProducesResponseType(typeof(QuizDto), 200)]
+        public IActionResult Get(Guid id)
+        {
+            var quiz = _service.Get(id);
+            if (quiz == null){ 
+                return NotFound(); 
+            }
+            
+            QuizDto dto = _mapper.ToDto(quiz);
+            return Ok(dto);
+        }
+
         
     }
 }

@@ -7,6 +7,11 @@ namespace Ynov.QuizYnov.Business.Models
 {
     public class Question
     {
+
+        public Guid Id { get; set; }
+
+        public string? Title { get; set; }
         
+        public IEnumerable<Answer> Answers { get; set; }
     }
 }

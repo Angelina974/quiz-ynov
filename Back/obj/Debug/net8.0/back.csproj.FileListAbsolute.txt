@@ -30,3 +30,4 @@ C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\refint\back.dll
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.pdb
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.genruntimeconfig.cache
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\ref\back.dll
+C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.sourcelink.json
