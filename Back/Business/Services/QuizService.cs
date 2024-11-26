@@ -17,7 +17,7 @@ namespace Ynov.QuizYnov.Business.Services
                 {
                     Id = new Guid("182b360a-ab56-47b9-b20c-5be9f626b9c8"),
                 },
-                PublishedDate = new DateTime(2021, 10, 1),   
+                PublishedDate = new DateTime(2021, 10, 1, 12, 00, 00),   
             }
         };
 

@@ -1,0 +1,18 @@
+<h1>Liste QUIZ</h1>
+
+<ul>
+  @for(quiz of quizzes; track quiz.id){
+    <li>
+      <a [routerLink]="['details', quiz.id]">
+        {{ quiz.name }}
+        {{ quiz.description }}
+      </a>
+
+    </li>
+  }
+</ul>
+
+
+
+
+

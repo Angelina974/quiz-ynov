@@ -7,7 +7,7 @@ using Ynov.QuizYnov.Business.Models;
 
 namespace Ynov.QuizYnov.Controllers
 {
-    [Route("api/quiz")]
+    [Route("api/quizzes")]
     [ApiController]
     public class QuizController : ControllerBase
     {

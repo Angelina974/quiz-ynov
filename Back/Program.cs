@@ -31,6 +31,8 @@ namespace Ynov.QuizYnov
                 app.UseSwaggerUI();
             }
 
+            app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader());
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

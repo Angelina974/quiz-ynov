@@ -1,0 +1,12 @@
+<p>quiz-details works!</p>
+
+<p>{{ id() }}</p>
+
+@if(quiz) {
+    <p>Nom : {{ quiz.name }}</p>
+  
+    <p>Categorie : {{ quiz.category.id }}</p>
+    <p>Difficulty : {{ quiz.difficulty }}</p>
+    <p>{{ quiz.description }}</p>
+}
+

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {}
+    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {
+    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
+        "projectUniqueName": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
         "projectName": "back",
-        "projectPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\obj\\",
+        "projectPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
+        "packagesPath": "C:\\Users\\enzoc\\.nuget\\packages\\",
+        "outputPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\enzoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
