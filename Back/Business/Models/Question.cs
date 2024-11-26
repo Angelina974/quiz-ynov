@@ -12,6 +12,5 @@ namespace Ynov.QuizYnov.Business.Models
 
         public string? Title { get; set; }
         
-        public IEnumerable<Answer> Answers { get; set; }
     }
 }

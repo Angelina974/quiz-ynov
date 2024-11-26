@@ -15,6 +15,8 @@ namespace Ynov.QuizYnov.Controllers.Dtos
 
         public int Difficulty { get; set; }
 
+        public DateTime PublishedDate { get; set; }
+
         public Guid CategoryId { get; set; }
     }
 }

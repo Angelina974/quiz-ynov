@@ -11,9 +11,12 @@ namespace Ynov.QuizYnov.Business.Models
 
         public int Difficulty { get; set; }
 
+        public DateTime PublishedDate { get ; set; }
+
         public Category Category { get; set; }
 
         public IEnumerable<Question> Questions { get; set; }
+
     }
         
 }

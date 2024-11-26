@@ -13,8 +13,9 @@ namespace Ynov.QuizYnov.Controllers.Mappers
                 Name = quiz.Name,
                 Description = quiz.Description,
                 Difficulty = quiz.Difficulty,
-                CategoryId = quiz.Category.Id
-            };
+                CategoryId = quiz.Category.Id,
+                PublishedDate = quiz.PublishedDate,
+            }; 
         }
     }
 }

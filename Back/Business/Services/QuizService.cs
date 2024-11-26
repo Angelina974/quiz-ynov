@@ -16,7 +16,8 @@ namespace Ynov.QuizYnov.Business.Services
                 Category = new Category
                 {
                     Id = new Guid("182b360a-ab56-47b9-b20c-5be9f626b9c8"),
-                }
+                },
+                PublishedDate = new DateTime(2021, 10, 1),   
             }
         };
 
@@ -30,9 +31,15 @@ namespace Ynov.QuizYnov.Business.Services
             return _quizList.Find(q => q.Id == id);
         }
 
-        public IEnumerable<Quiz> GetQuestionById(Guid questionId)
+        public IEnumerable<Question>? GetQuestions(Guid quizId)
         {
-            return _quizList.Find(q => q.QuizId == questionId);
+            var quiz = Get(quizId);
+            if (quiz == null)
+            {
+                return null;
+            }
+
+            return quiz?.Questions;
         }
     }
 }
