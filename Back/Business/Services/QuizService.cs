@@ -22,13 +22,19 @@ namespace Ynov.QuizYnov.Business.Services
             return quiz.Questions;
         }
 
-         public IEnumerable<Category> GetCategories(Guid categoryId) {
-            return QuizData.Categories.Where(c => c.Id == categoryId);
-         }
-
-        public IEnumerable<Quiz> GetQuizzesByCategories(Guid categoryId, Guid quizId) {
+        public IEnumerable<Category> GetCategories(Guid categoryId, Guid quizzId)
+        {
+            var quiz = QuizData.Quizzes.FirstOrDefault(q => q.Id == quizzId);
             
+            if (quiz != null && quiz.Category.Id == categoryId)
+            {
+                return new List<Category> { quiz.Category }; 
+            }
+        
+            return Enumerable.Empty<Category>(); 
         }
+
+
 
 
     }

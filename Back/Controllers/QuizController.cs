@@ -53,11 +53,15 @@ namespace Ynov.QuizYnov.Controllers
 
         return Ok(questions);
     }
-       
-        [HttpGet("{CategoryId}", Name = "GetQuestionsByQuizz")]
-        [ProducesResponseType(typeof(IEnumerable<Question>), 200)]
 
         
+        [HttpGet("{quizzId}/categories/{categoryId}", Name = "GetCategories")]
+        [ProducesResponseType(typeof(IEnumerable<Question>), 200)]
+        public IActionResult GetCategoriesByQuizzId(Guid categoryId, Guid quizzId) {
+            var quizByCategories = _service.GetCategories(categoryId, quizzId);
+
+            return Ok(quizByCategories);
+        }
 
 
     }

@@ -9,7 +9,7 @@ namespace Ynov.QuizYnov.Business.Models
     {
         public Guid Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         
     }
