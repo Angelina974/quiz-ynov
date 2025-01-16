@@ -11,6 +11,10 @@ namespace Ynov.QuizYnov.Business.Models
         public Guid Id { get; set; }
 
         public string? Title { get; set; }
+
+        public IEnumerable<Response> Responses {get; set;} = new List<Response>();
+
+        
         
     }
 }

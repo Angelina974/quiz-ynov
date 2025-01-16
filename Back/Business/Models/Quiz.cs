@@ -15,7 +15,7 @@ namespace Ynov.QuizYnov.Business.Models
 
         public Category Category { get; set; }
 
-        public IEnumerable<Question> Questions { get; set; }
+        public IEnumerable<Question> Questions { get; set; } = new List<Question>();
 
     }
         

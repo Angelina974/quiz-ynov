@@ -8,6 +8,8 @@ namespace Ynov.QuizYnov.Business
         
         Quiz? Get(Guid id);
 
-        IEnumerable<Question>? GetQuestions(Guid questionId);
+        IEnumerable<Question>? GetQuestions(Guid QuestionId);
+
+        IEnumerable<Category>? GetCategories(Guid CategoryId);
     }
 }
