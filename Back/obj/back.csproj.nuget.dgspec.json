@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
+        "projectName": "back",
+        "projectPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8d79d1b85649793806e497c9aa420c714163bb8c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
