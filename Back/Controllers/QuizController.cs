@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Ynov.QuizYnov.Business;
 using Ynov.QuizYnov.Controllers.Dtos;
 using Ynov.QuizYnov.Business.Models;
+using System.ComponentModel;
 
 namespace Ynov.QuizYnov.Controllers
 {
@@ -43,6 +44,25 @@ namespace Ynov.QuizYnov.Controllers
             return Ok(dto);
         }
 
+
+        [HttpGet("{id}/questions", Name = "GetQuestionsByQuizz")]
+        [ProducesResponseType(typeof(IEnumerable<Question>), 200)]
+        public IActionResult GetQuestions(Guid id)
+        {
+        var questions = _service.GetQuestions(id);
+
+        return Ok(questions);
+    }
+
         
+        [HttpGet("{quizzId}/categories/{categoryId}", Name = "GetCategories")]
+        [ProducesResponseType(typeof(IEnumerable<Question>), 200)]
+        public IActionResult GetCategoriesByQuizzId(Guid categoryId, Guid quizzId) {
+            var quizByCategories = _service.GetCategories(categoryId, quizzId);
+
+            return Ok(quizByCategories);
+        }
+
+
     }
 }

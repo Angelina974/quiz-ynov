@@ -1,45 +1,41 @@
 using Ynov.QuizYnov.Business.Models;
+using System;
+using System.Collections.Generic;
 
 namespace Ynov.QuizYnov.Business.Services
 {
     public class QuizService : IQuizService
     {
-        private List<Quiz> _quizList = new List<Quiz>()
-        {
-            new Quiz
-            {
-                // https://guidgenerator.com
-                Id = new Guid("5f760b3b-1b7b-4b6b-8b1b-3b1b7b4b6b8b"),
-                Name = "Dev fullstack M1",
-                Description = "ASP .NET Core, Angular, etc.",
-                Difficulty = 3,
-                Category = new Category
-                {
-                    Id = new Guid("182b360a-ab56-47b9-b20c-5be9f626b9c8"),
-                },
-                PublishedDate = new DateTime(2021, 10, 1, 12, 00, 00),   
-            }
-        };
-
         public IEnumerable<Quiz> GetAll()
         {
-            return _quizList;
+            return QuizData.Quizzes;
         }
 
         public Quiz? Get(Guid id)
         {
-            return _quizList.Find(q => q.Id == id);
+            return QuizData.Quizzes.FirstOrDefault(q => q.Id == id);
         }
 
-        public IEnumerable<Question>? GetQuestions(Guid quizId)
+        public IEnumerable<Question> GetQuestions(Guid quizId)
         {
-            var quiz = Get(quizId);
-            if (quiz == null)
-            {
-                return null;
-            }
-
-            return quiz?.Questions;
+            var quiz = QuizData.Quizzes.First(x => x.Id == quizId);
+            return quiz.Questions;
         }
+
+        public IEnumerable<Category> GetCategories(Guid categoryId, Guid quizzId)
+        {
+            var quiz = QuizData.Quizzes.FirstOrDefault(q => q.Id == quizzId);
+            
+            if (quiz != null && quiz.Category.Id == categoryId)
+            {
+                return new List<Category> { quiz.Category }; 
+            }
+        
+            return Enumerable.Empty<Category>(); 
+        }
+
+
+
+
     }
 }

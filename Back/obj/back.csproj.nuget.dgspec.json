@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {}
+    "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj": {}
   },
   "projects": {
-    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {
+    "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
+        "projectUniqueName": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj",
         "projectName": "back",
-        "projectPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
-        "packagesPath": "C:\\Users\\enzoc\\.nuget\\packages\\",
-        "outputPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\obj\\",
+        "projectPath": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj",
+        "packagesPath": "C:\\Users\\manon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\enzoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,8 +39,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -70,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
