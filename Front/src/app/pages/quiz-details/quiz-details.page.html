@@ -1,12 +1,24 @@
-<p>quiz-details works!</p>
+<div class="quiz-details">
+  <h1>Détails du Quiz</h1>
 
-<p>{{ id() }}</p>
 
-@if(quiz) {
-    <p>Nom : {{ quiz.name }}</p>
-  
-    <p>Categorie : {{ quiz.category.id }}</p>
-    <p>Difficulty : {{ quiz.difficulty }}</p>
-    <p>{{ quiz.description }}</p>
-}
+  @if(quiz) {
+      <p><strong>Nom :</strong> {{ quiz.name }}</p>
+
+      <p><strong>Catégorie :</strong> {{ quiz.categoryId || 'Non définie' }}</p>
+      <p><strong>Difficulté :</strong> {{ quiz.difficulty }}</p>
+      <p class="description">{{ quiz.description }}</p>
+      <div class="buttons">
+        <button class="start-btn" [routerLink]="['/']">Retour aux quiz</button>
+        <button class="start-btn" [routerLink]="['/details', quiz.id, 'start', 'questions']">Commencer le quiz</button>
+      </div>
+    }
+
+
+
+  @else {
+      <p>Chargement des détails...</p>
+    }
+
+</div>
 

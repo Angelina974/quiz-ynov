@@ -20,10 +20,10 @@ namespace Ynov.QuizYnov.Business
                     new Question
                     {
                         Id = Guid.NewGuid(),
-                        Title = "Parmi les langages suivants, lesquels sont des langages web ?",
+                        Title = "Parmi les langages suivants, lequel est le plus adapté pour le front-end ?",
                         Responses = new List<Response>
                         {
-                            new Response { Id = Guid.NewGuid(), Text = "HTML", IsCorrect = true },
+                            new Response { Id = Guid.NewGuid(), Text = "HTML", IsCorrect = false },
                             new Response { Id = Guid.NewGuid(), Text = "C#", IsCorrect = false },
                             new Response { Id = Guid.NewGuid(), Text = "CSS", IsCorrect = true },
                             new Response { Id = Guid.NewGuid(), Text = "Python", IsCorrect = false }

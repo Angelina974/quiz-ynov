@@ -1,37 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj": {}
+    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj": {
+    "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj",
+        "projectUniqueName": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
         "projectName": "back",
-        "projectPath": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\back.csproj",
-        "packagesPath": "C:\\Users\\manon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manon\\Desktop\\Accueil\\cours_M1\\fullstack\\csharp\\projet_fil_rouge_2\\quiz-ynov\\back\\obj\\",
+        "projectPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\back.csproj",
+        "packagesPath": "C:\\Users\\enzoc\\.nuget\\packages\\",
+        "outputPath": "D:\\YNOV\\FullStack\\Projet File Rouge\\quiz-ynov\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
-        "projectName": "back",
-        "projectPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\back.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\Documents\\Julia\\quiz-ynov\\Back\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8d79d1b85649793806e497c9aa420c714163bb8c
+          "C:\\Users\\enzoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -88,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -26,16 +26,17 @@ namespace Ynov.QuizYnov.Business.Services
         {
             var quiz = QuizData.Quizzes.FirstOrDefault(q => q.Id == quizzId);
             
-            if (quiz != null && quiz.Category.Id == categoryId)
+            if (quiz != null && quiz.Category != null && quiz.Category.Id == categoryId)
             {
                 return new List<Category> { quiz.Category }; 
             }
-        
+
             return Enumerable.Empty<Category>(); 
         }
 
-
-
-
+        internal static object GetQuizWithQuestions(object quizId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace Ynov.QuizYnov.Controllers.Mappers
                 Name = quiz.Name,
                 Description = quiz.Description,
                 Difficulty = quiz.Difficulty,
-                CategoryId = quiz.Category.Id,
+                CategoryId = quiz.Category?.Id ?? Guid.Empty, // Add null check and default value
                 PublishedDate = quiz.PublishedDate,
             }; 
         }

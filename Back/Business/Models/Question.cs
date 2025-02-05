@@ -13,8 +13,6 @@ namespace Ynov.QuizYnov.Business.Models
         public string? Title { get; set; }
 
         public IEnumerable<Response> Responses {get; set;} = new List<Response>();
-
-        
-        
+        public object CorrectResponseId { get; internal set; }
     }
 }

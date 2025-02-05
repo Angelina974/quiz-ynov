@@ -52,7 +52,9 @@ namespace Ynov.QuizYnov.Controllers
         var questions = _service.GetQuestions(id);
 
         return Ok(questions);
-    }
+
+
+        }
 
         
         [HttpGet("{quizzId}/categories/{categoryId}", Name = "GetCategories")]
@@ -62,6 +64,8 @@ namespace Ynov.QuizYnov.Controllers
 
             return Ok(quizByCategories);
         }
+
+
 
 
     }

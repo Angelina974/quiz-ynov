@@ -13,7 +13,7 @@ namespace Ynov.QuizYnov.Business.Models
 
         public DateTime PublishedDate { get ; set; }
 
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
         public IEnumerable<Question> Questions { get; set; } = new List<Question>();
 

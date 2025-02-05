@@ -31,39 +31,6 @@ C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.pdb
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.genruntimeconfig.cache
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\ref\back.dll
 C:\Users\julia\Documents\Julia\quiz-ynov\Back\obj\Debug\net8.0\back.sourcelink.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\appsettings.Development.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\appsettings.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.exe
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.deps.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.runtimeconfig.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.pdb
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.AssemblyReference.cache
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.GeneratedMSBuildEditorConfig.editorconfig
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.AssemblyInfoInputs.cache
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.AssemblyInfo.cs
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.CoreCompileInputs.cache
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.MvcApplicationPartsAssemblyInfo.cs
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.MvcApplicationPartsAssemblyInfo.cache
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.sourcelink.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.build.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.development.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.back.Microsoft.AspNetCore.StaticWebAssets.props
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.build.back.props
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.back.props
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.back.props
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.pack.json
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\scopedcss\bundle\back.styles.css
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.Up2Date
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\refint\back.dll
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.pdb
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.genruntimeconfig.cache
-D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\ref\back.dll
 C:\Users\manon\Desktop\Accueil\cours M1\fullstack\c#\projet fil rouge 2\quiz-ynov\Back\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\manon\Desktop\Accueil\cours M1\fullstack\c#\projet fil rouge 2\quiz-ynov\Back\bin\Debug\net8.0\appsettings.json
 C:\Users\manon\Desktop\Accueil\cours M1\fullstack\c#\projet fil rouge 2\quiz-ynov\Back\bin\Debug\net8.0\back.staticwebassets.endpoints.json
@@ -172,3 +139,36 @@ C:\Users\manon\Desktop\Accueil\cours_M1\fullstack\csharp\projet_fil_rouge_2\quiz
 C:\Users\manon\Desktop\Accueil\cours_M1\fullstack\csharp\projet_fil_rouge_2\quiz-ynov\back\obj\Debug\net8.0\back.pdb
 C:\Users\manon\Desktop\Accueil\cours_M1\fullstack\csharp\projet_fil_rouge_2\quiz-ynov\back\obj\Debug\net8.0\back.genruntimeconfig.cache
 C:\Users\manon\Desktop\Accueil\cours_M1\fullstack\csharp\projet_fil_rouge_2\quiz-ynov\back\obj\Debug\net8.0\ref\back.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\appsettings.Development.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\appsettings.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.exe
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.deps.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.runtimeconfig.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\back.pdb
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.AssemblyReference.cache
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.GeneratedMSBuildEditorConfig.editorconfig
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.AssemblyInfoInputs.cache
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.AssemblyInfo.cs
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.CoreCompileInputs.cache
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.MvcApplicationPartsAssemblyInfo.cs
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.MvcApplicationPartsAssemblyInfo.cache
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.sourcelink.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.build.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.development.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.back.Microsoft.AspNetCore.StaticWebAssets.props
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.build.back.props
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.back.props
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.back.props
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\staticwebassets.pack.json
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\scopedcss\bundle\back.styles.css
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.csproj.Up2Date
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\refint\back.dll
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.pdb
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\back.genruntimeconfig.cache
+D:\YNOV\FullStack\Projet File Rouge\quiz-ynov\Back\obj\Debug\net8.0\ref\back.dll

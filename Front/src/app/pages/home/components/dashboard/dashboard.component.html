@@ -1,18 +1,21 @@
-<h1>Liste QUIZ</h1>
 
-<ul>
-  @for(quiz of quizzes; track quiz.id){
-    <li>
-      <a [routerLink]="['details', quiz.id]">
-        {{ quiz.name }}
-        {{ quiz.description }}
-      </a>
-
-    </li>
+<div class="dashboard">
+  <h1>JE RÉVISE</h1>
+  @if (quizzes.length === 0) {
+    <p>Chargement des quiz...</p>
   }
-</ul>
 
+  <ul>
 
+    @for(quiz of quizzes; track quiz.id){
+      <li>
+        <a [routerLink]="['details', quiz.id]">
+          {{ quiz.name }}
+        </a>
+      </li>
+    }
+  </ul>
+</div>
 
 
 
