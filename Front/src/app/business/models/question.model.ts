@@ -1,12 +1,11 @@
 import { Responses } from './response.model';
 
 export interface Questions {
-choices: any;
+    choices: any;
 
-  readonly id: string;
+    readonly id: string;
 
-  readonly title: string;
+    readonly title: string;
 
-  readonly responses: Responses[];
-
+    readonly responses: Responses[];
 }

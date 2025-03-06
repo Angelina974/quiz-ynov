@@ -1,4 +1,7 @@
-namespace Ynov.QuizYnov.Business.Models
+namespace Ynov.QuizYnov.Business.Models;
+
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 {
     public class Quiz

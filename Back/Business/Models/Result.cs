@@ -8,13 +8,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ynov.QuizYnov.Business.Models
 {
-    public class Category
+    public class Result
     {
+
         public Guid Id { get; set; }
 
-        public string? Name { get; set; }
+        public string? Title { get; set; }
 
-        public ICollection<Quiz> Quizzes { get; set; } = new List<Quiz>();
-        
+        public string? Description { get; set; }
+
     }
 }

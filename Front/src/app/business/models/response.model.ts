@@ -1,9 +1,7 @@
 export interface Responses {
+    readonly id: string;
 
-  readonly id: string;
+    readonly text: string;
 
-  readonly text: string;
-
-  readonly isCorrect: boolean;
-
+    readonly isCorrect: boolean;
 }

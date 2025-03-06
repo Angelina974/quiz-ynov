@@ -1,38 +1,36 @@
 <div class="quiz-container">
-  @if (questions.length > 0 && !showResult) {
+    @if (questions.length > 0 && !showResult) {
     <h1>Question {{ currentQuestionIndex + 1 }} / {{ questions.length }}</h1>
 
     <p class="question-text">{{ currentQuestion.title }}</p>
 
     <ul class="choices-list">
-      @for (response of currentQuestion.responses; track response.id) {
+        @for (response of currentQuestion.responses; track response.id) {
         <li>
-          <button
-            class="choice-btn"
-            [class.selected]="response === selectedAnswer"
-            (click)="selectedAnswer = response">
-            {{ response.text }}
-          </button>
+            <button
+                class="choice-btn"
+                [class.selected]="response === selectedAnswer"
+                (click)="selectedAnswer = response"
+            >
+                {{ response.text }}
+            </button>
         </li>
-      }
+        }
     </ul>
     <div class="buttons">
-
-      <button class="start-btn" (click)="nextQuestion()" [disabled]="!selectedAnswer">
-        Question suivante
-      </button>
+        <button class="start-btn" (click)="nextQuestion()" [disabled]="!selectedAnswer">Question suivante</button>
     </div>
-  }
+    }
 </div>
 
 <div class="result-container">
-  @if (showResult) {
+    @if (showResult) {
     <h1>Résultats du Quiz</h1>
     <p>Score : {{ correctAnswers }} / {{ questions.length }}</p>
     <p>Pourcentage de réussite : {{ (correctAnswers / questions.length) * 100 }}%</p>
     <div class="buttons">
-      <button class="start-btn" [routerLink]="['/']">Retour aux quiz</button>
-      <button class="start-btn" (click)="restartQuiz()">Recommencer</button>
+        <button class="start-btn" [routerLink]="['/']">Retour aux quiz</button>
+        <button class="start-btn" (click)="restartQuiz()">Recommencer</button>
     </div>
-  }
+    }
 </div>

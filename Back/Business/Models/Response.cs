@@ -1,5 +1,8 @@
 using System;
 
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+
 namespace Ynov.QuizYnov.Business.Models
 {
     public class Response

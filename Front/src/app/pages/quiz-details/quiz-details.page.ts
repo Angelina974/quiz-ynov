@@ -5,22 +5,21 @@ import { Category } from '../../business/models/category.model';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-quiz-details',
-  standalone: true,
-  templateUrl: './quiz-details.page.html',
-  styleUrls: ['./quiz-details.page.scss'],
-  imports: [RouterLink],
+    selector: 'app-quiz-details',
+    standalone: true,
+    templateUrl: './quiz-details.page.html',
+    styleUrls: ['./quiz-details.page.scss'],
+    imports: [RouterLink]
 })
 export class QuizDetailsPage {
+    @Input() public readonly id!: string;
+    protected quiz?: Quiz;
 
-  @Input() public readonly id!: string;
-  protected quiz?: Quiz;
+    constructor(private readonly quizService: QuizService) {}
 
-  constructor(private readonly quizService: QuizService) {}
-
-  ngOnInit(): void {
-    this.quizService.get(this.id).subscribe((data) => {
-      this.quiz = data;
-    });
-  }
+    ngOnInit(): void {
+        this.quizService.get(this.id).subscribe(data => {
+            this.quiz = data;
+        });
+    }
 }

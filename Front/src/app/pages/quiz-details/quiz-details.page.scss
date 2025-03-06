@@ -1,40 +1,37 @@
-p{
-  margin: 0;
+p {
+    margin: 0;
 }
 .quiz-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 20px;
-  font-family: "Poppins", sans-serif;
-  color: #2d3748;
-  height: 100vh;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #2d3748;
+    height: 100vh;
+    justify-content: flex-start;
 
+    .quiz-info {
+        background: rgba(255, 250, 236, 0.95);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
 
-  .quiz-info {
-    background: rgba(255, 250, 236, 0.95);
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
+        p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #475569;
 
-    p {
-      font-size: 1.1rem;
-      margin: 10px 0;
-      color: #475569;
+            strong {
+                color: #1d4ed8;
+            }
+        }
 
-      strong {
-        color: #1d4ed8;
-      }
+        .description {
+            font-style: italic;
+            color: #6b7280;
+        }
     }
-
-    .description {
-      font-style: italic;
-      color: #6b7280;
-    }
-  }
-
-  
 }

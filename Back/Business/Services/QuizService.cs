@@ -22,16 +22,19 @@ namespace Ynov.QuizYnov.Business.Services
             return quiz.Questions;
         }
 
-        public IEnumerable<Category> GetCategories(Guid categoryId, Guid quizzId)
+        public IEnumerable<Category> GetCategories(Guid categoryId)
         {
-            var quiz = QuizData.Quizzes.FirstOrDefault(q => q.Id == quizzId);
-            
-            if (quiz != null && quiz.Category != null && quiz.Category.Id == categoryId)
-            {
-                return new List<Category> { quiz.Category }; 
+            var quizzesInCategory = QuizData.Quizzes.Where(q => q.Category == categoryId);
+            //récupère les quiz dans la data, et vérifie que les catégories dans le quiz sont les mêmes que ceux qu'on demande
+
+            if (quizzesInCategory != null) {
+                return new List<Quiz> {
+                }
+
+            } else {
+                return Enumerable.Empty<Quiz>();
             }
 
-            return Enumerable.Empty<Category>(); 
         }
 
         internal static object GetQuizWithQuestions(object quizId)

@@ -2,6 +2,7 @@ using Ynov.QuizYnov.Controllers.Mappers;
 using Ynov.QuizYnov.Business.Services;
 using Ynov.QuizYnov.Business.Models;
 using Ynov.QuizYnov.Business;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Ynov.QuizYnov
@@ -22,6 +23,12 @@ namespace Ynov.QuizYnov
             builder.Services.AddScoped<IQuizService, QuizService>();
             builder.Services.AddScoped<QuizMapper>();
 
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+            ?? throw new InvalidOperationException("Connection string not found");
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(connectionString));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,6 +36,11 @@ namespace Ynov.QuizYnov
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+
+                // Génère la BDD si nécessaire 
+                var serviceScope = app.Services.CreateScope();
+                var context = serviceScope.ServiceProvider.GetService<ApplicationDbContext>();
+                context?.Database.EnsureCreated();
             }
 
             app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyHeader());
@@ -37,10 +49,10 @@ namespace Ynov.QuizYnov
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
+
         }
     }
 }

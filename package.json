@@ -1,0 +1,29 @@
+{
+    "name": "Quiz-Ynov",
+    "version": "1.0.0",
+    "description": "Description de ton projet",
+    "main": "index.js",
+    "devDependencies": {
+        "prettier": "3.5.3"
+    },
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true,
+        "jsxSingleQuote": false,
+        "quoteProps": "as-needed",
+        "jsxBracketSameLine": false,
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "endOfLine": "auto",
+        "printWidth": 120
+    },
+    "dependencies": {
+        "Quiz-Ynov": "file:",
+        "ton-projet": "file:"
+    }
+}

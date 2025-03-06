@@ -1,11 +1,9 @@
-import { ResponsesDto } from "./response.dto";
+import { ResponsesDto } from './response.dto';
 
 export interface QuestionsDto {
+    readonly id: string;
 
-  readonly id: string;
+    readonly title: string;
 
-  readonly title: string;
-
-  readonly responses: ResponsesDto[];
-
+    readonly responses: ResponsesDto[];
 }
